@@ -1,6 +1,6 @@
 html{
 	font-family: 'Tahoma', sans-serif;
-	font-size: 1cm;
+	font-size: 0.9cm;
 	line-height: 0.8cm;
 	color: #000000
 }
@@ -10,18 +10,21 @@ body{
 }
 
 table{
-	width 860px;
+	width: 960px;
 	background-color: white;
 	padding: 0px;
 }
 
 header{ 
 	text-align: center;
+	width: 960px;
 	font-size: 1.4cm;
 	background-color: #CBC3E3;
 	padding: .125cm;
 	font-family: 'Impact';
-	color: #000000
+	color: #000000;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 table, tr, td, th{
@@ -33,19 +36,22 @@ table, tr, td, th{
 }
 
 h2{
+	width: 420px; 
 	font-size: 0.65cm;
 	line-height: 0.6cm;
 	color: #FFFFFF;
-	border-style: groove;
-	border-color: white;
+	margin: 0;
 	background-color: black;
 }
 
 
 p{
+	width: 420px; 
 	font-size: 0.5cm;
 	line-height: 0.6cm;
 	color: #FFFFFF;
+	margin: 0;
+	background-color: black;
 }
 
 a{
